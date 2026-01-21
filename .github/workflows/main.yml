@@ -1,8 +1,8 @@
 name: Movieglitch Hunter
 
 on:
-  schedule:
-    - cron: '*/10 * * * *'  # Run every 10 minutes
+    schedule:
+    - cron: '*/5 * * * *'  # Must match the 5 minute window in the python script
   workflow_dispatch:      # Adds a "Run Now" button for testing
 
 jobs:
